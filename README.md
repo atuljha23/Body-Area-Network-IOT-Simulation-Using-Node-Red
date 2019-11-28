@@ -15,8 +15,10 @@ Simulating the Body-Area-Network Sensors in real-time on Node-Red.
 
 - Install Node Red
 `sudo npm install -g --unsafe-perm node-red`
+- Goto `127.0.0.1:1800` Click on Menu > Import > Upload Json > Select Main Node.json.
 - Import Main Node.json on Node-Red.
-- Change Certificates of AWS (Generate from AWS IOT Dashboard.)
+- Change Certificates Directory of AWS (Generate from AWS IOT Dashboard.) 
+- https://docs.aws.amazon.com/iot/latest/developerguide/server-authentication.html#server-authentication-certs
 - Change MQTT Server Details and MQTT Topic Accordingly.
 - Change S3 Node Details.
 - Deploy.
